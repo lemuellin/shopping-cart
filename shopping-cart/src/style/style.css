@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(23, 50, 113);
+    color: white;
+}
+
+.navLogo{
+    padding-left: 50px;
+}
+
+.navLinkContainer{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.navLink{
+    color: white;
+}
