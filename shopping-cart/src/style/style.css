@@ -10,7 +10,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(23, 50, 113);
+    background-color: rgb(58, 106, 218);
     color: white;
 }
 
@@ -29,4 +29,71 @@ nav{
 
 .navLink{
     color: white;
+}
+
+/* Shop Page */
+.itemsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.itemCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopItemPhoto{
+    width: 10rem;
+    height: 10rem;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.amountBtn{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+}
+
+.amountInput{
+    width: 4rem;
+    height: 2rem;
+}
+
+.status{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+
+    position: sticky;
+    top: 0;
+}
+
+.itemCount{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.841);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartIcon{
+    width: 3rem;
+}
+
+.cartList{
+    display: none;
 }
