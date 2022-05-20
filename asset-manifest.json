@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odin-shopping-cart/static/css/main.65c848f2.css",
-    "main.js": "/odin-shopping-cart/static/js/main.6f314416.js",
+    "main.js": "/odin-shopping-cart/static/js/main.319e121e.js",
     "static/media/blue-shelf-mockup-with-product-presentation3d-rendering.jpg": "/odin-shopping-cart/static/media/blue-shelf-mockup-with-product-presentation3d-rendering.327a0d7c12a8d53ed4c4.jpg",
     "static/media/12.jpg": "/odin-shopping-cart/static/media/12.39682b822fc66b4fb1a1.jpg",
     "static/media/16.jpg": "/odin-shopping-cart/static/media/16.b2d360eede8b52165913.jpg",
@@ -30,10 +30,10 @@
     "static/media/bag.png": "/odin-shopping-cart/static/media/bag.9c816c6b923ef947a58e.png",
     "index.html": "/odin-shopping-cart/index.html",
     "main.65c848f2.css.map": "/odin-shopping-cart/static/css/main.65c848f2.css.map",
-    "main.6f314416.js.map": "/odin-shopping-cart/static/js/main.6f314416.js.map"
+    "main.319e121e.js.map": "/odin-shopping-cart/static/js/main.319e121e.js.map"
   },
   "entrypoints": [
     "static/css/main.65c848f2.css",
-    "static/js/main.6f314416.js"
+    "static/js/main.319e121e.js"
   ]
 }
