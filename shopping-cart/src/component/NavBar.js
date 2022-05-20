@@ -7,7 +7,7 @@ const NavBar = () => {
         <nav>
             <h1 className='navLogo'>Minimal Garden</h1>
             <ul className='navLinkContainer'>
-                <Link to='/' className='navLink'>
+                <Link to='/odin-shopping-cart' className='navLink'>
                     <li>Home</li>
                 </Link>
                 <Link to='/shop' className='navLink'>

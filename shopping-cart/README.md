@@ -18,5 +18,6 @@ https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
 
 #To-Do
 1. click/hover item photo to view introduction
+2. React file structure change in github
 
 *** TEST ***
