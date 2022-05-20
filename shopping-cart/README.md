@@ -1,14 +1,22 @@
-#Theme
-Cowboy
-Wild wild west
-
 #Attribute
 Cactus: 
-<a href='https://www.freepik.com/vectors/cactus-flower'>Cactus flower vector created by pch.vector - www.freepik.com</a>
+Cactus flower vector created by pch.vector - www.freepik.com
 
-<a href='https://www.freepik.com/vectors/cacti'>Cacti vector created by macrovector - www.freepik.com</a>
+Background:
+Cosmetic podium photo created by vanitjan - www.freepik.com
+
+Icons:
+Facebook icons created by Pixel perfect - Flaticon
+Github icons created by Pixel perfect - Flaticon
+Linkedin icons created by Freepik - Flaticon
+Twitter icons created by Pixel perfect - Flaticon
+Instagram icons created by Pixel perfect - Flaticon
+Facebook icons created by Freepik - Flaticon
+
+Color-palette:
+https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
 
 #To-Do
+1. click/hover item photo to view introduction
 
-2. click item photo to view introduction
-3. lift state up from cart to shop, copy and paste button function to shop
+*** TEST ***

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h3{
+    font-weight: 500;
+    font-size:large;
+}
+
+h4{
+    font-weight: 300;
+}
+
+.shopItemPhoto{
+    width: 10rem;
+    height: 10rem;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.amountBtn{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.amountInput{
+    width: 4rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cartIcon{
+    width: 3rem;
+}
+
+.cartList{
+    min-height: 79vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEFAE0;
+    gap: 80px;
+    padding-top: 20px;
+}
+
+.cartCard{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 50px;
+
+    border-radius: 8px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cartItem{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+}
+
+.cartItemAmount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.removeButton{
+    justify-self: center;
+    align-self: center;
+    border: none;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #ff9d57;
+    cursor: pointer;
+}
+
+.total{
+    display: grid;
+    width: 20vw;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.total>h4, .total>h3{
+    justify-self: center;
+    align-self: center;
+}
+
+/* button */
+.buttons{
+    display: flex;
+    gap: 100px;
+}
+
+.backToShop, .checkout{
+    padding: 10px;  
+    border: none;
+    border-radius: 30px;
+    background-color: #FAEDCD;
+    font-weight: 500;
+    font-size: large;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.backToShop:hover{
+    background-color: #ffa86b;
+}
+
+.backToShop:active{
+    background-color: #ff6a00;
+    transform: translateY(2px);
+}
+
+.checkout{
+    background-color: #ff9d57;
+}
+
+.checkout:hover, .removeButton:hover{
+    background-color: #ff6a00;
+}
+
+.checkout:active, .removeButton:active{
+    background-color: #ff9d57;
+    transform: translateY(2px);
+}

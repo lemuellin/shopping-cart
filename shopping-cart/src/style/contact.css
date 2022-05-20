@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 100vw;
+    height: 85vh;
+    background-image: url('../asset/background/blue-shelf-mockup-with-product-presentation3d-rendering.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-size: 100vw 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.link{
+    display: flex;
+    gap: 50px;
+}
+
+.address{
+    text-align: center;
+}
+
+.icon{
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+}
