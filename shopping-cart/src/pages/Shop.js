@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../style/shop.css';
 
 import Echeveria from '../asset/Echeveria';
@@ -11,6 +11,16 @@ import cartIcon from '../asset/icons/bag.png';
 const Shop = () => {
     const [cart, setCart] = useState(Array(20).fill(0));
     let cartStatus;
+    
+    // Animation
+    // useEffect(() => {
+    //     let itemCountDot = document.querySelector('.itemCount');
+    //     itemCountDot.classList.add('emphasize');
+
+    //     return () => {
+    //         itemCountDot.classList.remove('emphasize');
+    //     };
+    // },[cart]);
 
     const addToCart = (e) => {
         let pos = e.target.parentNode.parentNode.id - 1;
@@ -100,7 +110,10 @@ const Shop = () => {
                         {Echeveria.map(succulent => {
                             return(
                                 <div key={succulent.key} id={succulent.key} className='itemCard'>
-                                    <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                    <div className='imgContainer'>
+                                        <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                        <div className='shopItemDescription'>{succulent.description}</div>
+                                    </div>
                                     <div className='item'>
                                         <h3>{succulent.name}</h3>
                                         <h4>{'$ ' + succulent.price}</h4>
@@ -119,7 +132,10 @@ const Shop = () => {
                         {Cactus.map(succulent => {
                             return(
                                 <div key={succulent.key} id={succulent.key} className='itemCard'>
-                                    <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                    <div className='imgContainer'>
+                                        <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                        <div className='shopItemDescription'>{succulent.description}</div>
+                                    </div>
                                     <div className='item'>
                                         <h3>{succulent.name}</h3>
                                         <h4>{'$ ' + succulent.price}</h4>
@@ -138,7 +154,10 @@ const Shop = () => {
                         {Aloe.map(succulent => {
                             return(
                                 <div key={succulent.key} id={succulent.key} className='itemCard'>
-                                    <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                    <div className='imgContainer'>
+                                        <img src={succulent.img} alt='Succulent Photos' className='shopItemPhoto'/>
+                                        <div className='shopItemDescription'>{succulent.description}</div>
+                                    </div>
                                     <div className='item'>
                                         <h3>{succulent.name}</h3>
                                         <h4>{'$ ' + succulent.price}</h4>

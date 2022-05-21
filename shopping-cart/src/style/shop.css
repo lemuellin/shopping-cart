@@ -90,6 +90,7 @@ h4{
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    gap: 10px;
 }
 
 .shopItemPhoto{
@@ -154,4 +155,49 @@ input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* hover on img to show description */
+.imgContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer:hover{
+    cursor: pointer;
+}
+
+.shopItemDescription{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.imgContainer:hover img{
+    visibility: hidden;
+}
+
+.imgContainer:hover div{
+    border: 2px gray solid;
+    width: 180px;
+    height: 180px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* useEffect for item count status */
+.emphasize{
+    /* transition: all 1s;
+    transform: scale(2) scale(0.5);
+    -webkit-transform: ; */
 }

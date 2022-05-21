@@ -18,7 +18,8 @@ let Aloe = [
         name: 'ALOE PERFOLIATA',
         img: s18,
         price: 5,
-        description: "This blue-green succulent spreads out in clusters along the ground as it grows. Its spear-shaped leaves have harmless off-white to yellow “teeth” along the ridges, and bumps along the underside of the leaves.",
+        description: "It spreads out in clusters along the ground as it grows. Its spear-shaped leaves have harmless off-white to yellow “teeth” along the ridges.",
+        descriptionLong: "This blue-green succulent spreads out in clusters along the ground as it grows. Its spear-shaped leaves have harmless off-white to yellow “teeth” along the ridges, and bumps along the underside of the leaves.",
     },
 
     {
@@ -26,7 +27,8 @@ let Aloe = [
         name: 'POTHOS',
         img: s19,
         price: 5,
-        description: "Also called Devil’s Ivy, is a tropical vine plant that has adapted well as a hardy houseplant. It has shiny, heart-shaped leaves and comes in a number of natural and cultivated varieties to add interesting foliage to your home.",
+        description: "Also called Devil’s Ivy, it has shiny, heart-shaped leaves and comes in a number of natural and cultivated varieties.",
+        descriptionLong: "Also called Devil’s Ivy, is a tropical vine plant that has adapted well as a hardy houseplant. It has shiny, heart-shaped leaves and comes in a number of natural and cultivated varieties to add interesting foliage to your home.",
     },
 
     {
@@ -34,7 +36,8 @@ let Aloe = [
         name: 'ALOE VERA',
         img: s20,
         price: 12,
-        description: 'Is distinguished by its thick, pointed, and juicy green leaves with a toothed border that can grow to be 12–19 inches long. Each leaf has a slimy layer that retains water, making the leaves thick.',
+        description: 'Is distinguished by its thick, pointed, and juicy green leaves with a toothed border.',
+        descriptionLong: 'Is distinguished by its thick, pointed, and juicy green leaves with a toothed border that can grow to be 12–19 inches long. Each leaf has a slimy layer that retains water, making the leaves thick.',
     },
 ]
 

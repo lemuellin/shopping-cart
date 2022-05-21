@@ -24,7 +24,8 @@ let Cactus = [
         name: "MINI RAT'S TAIL CACTUS",
         img: s7,
         price: 5,
-        description: "Native to Mexico, it is distinctive for its long, trailing stems, fine spines that grow to 6 feet in length at maturity. The overall color of the plant is green when young but the stems age to almost beige color.",
+        description: "It is distinctive for its long, trailing stems, fine spines that grow to 6 feet in length at maturity.",
+        descriptionLong: "Native to Mexico, it is distinctive for its long, trailing stems, fine spines that grow to 6 feet in length at maturity. The overall color of the plant is green when young but the stems age to almost beige color.",
     },
 
     {
@@ -32,7 +33,8 @@ let Cactus = [
         name: "BISHOP'S CAP CACTUS",
         img: s8,
         price: 5,
-        description: "A rare cactus that has no spikes but white hairy scales that give it a characteristic chalk-white or silvery-grey appearance. It often has 5 ribs, but can grow up to 8 ribs with age.",
+        description: "A rare cactus that has no spikes but white hairy scales that give it a characteristic chalk-white or silvery-grey appearance.",
+        descriptionLong: "A rare cactus that has no spikes but white hairy scales that give it a characteristic chalk-white or silvery-grey appearance. It often has 5 ribs, but can grow up to 8 ribs with age.",
     },
 
     {
@@ -48,7 +50,8 @@ let Cactus = [
         name: 'Ball Cactus',
         img: s10,
         price: 6,
-        description: "Are moderate growers, adding about 4 inches to their height each year. Older plants will frequently produce flowers in beautiful shades of yellow, red, orange, or pink, and all varietals feature ridges of spikes that start white and grow to a yellow-brown with age.",
+        description: "Frequently produce flowers in beautiful shades of yellow, red, orange, or pink.",
+        descriptionLong: "Are moderate growers, adding about 4 inches to their height each year. Older plants will frequently produce flowers in beautiful shades of yellow, red, orange, or pink, and all varietals feature ridges of spikes that start white and grow to a yellow-brown with age.",
     },
 
     {
@@ -56,7 +59,8 @@ let Cactus = [
         name: 'HAIRY ROGER CACTUS',
         img: s11,
         price: 5,
-        description: 'Is indigenous to Mexico is a bushy succulent shrub with light green, egg-shaped, fleshy pads. The spines are quite short, and are often white, tan brown or yellow.',
+        description: 'Is indigenous to Mexico, a bushy succulent shrub with light green, egg-shaped, fleshy pads.',
+        descriptionLong: 'Is indigenous to Mexico, a bushy succulent shrub with light green, egg-shaped, fleshy pads. The spines are quite short, and are often white, tan brown or yellow.',
     },
 
     {
@@ -72,7 +76,8 @@ let Cactus = [
         name: 'CINNAMON CACTUS',
         img: s13,
         price: 12,
-        description: 'A miniature prickly pear version also known as Cinnamon Cactus which only grows to approx. 8" to 10" in height. The pads are covered with very small brownish-cinnamon colored spines or glochids. Very compact and self branching a good variety for growing as a houseplant or placement outdoors in frost-free locations in the rock garden.',
+        description: 'The pads are covered with very small brownish-cinnamon colored spines or glochids. Very compact and self branching.',
+        descriptionLong: 'A miniature prickly pear version also known as Cinnamon Cactus which only grows to approx. 8" to 10" in height. The pads are covered with very small brownish-cinnamon colored spines or glochids. Very compact and self branching a good variety for growing as a houseplant or placement outdoors in frost-free locations in the rock garden.',
     },
 
     {
@@ -80,7 +85,7 @@ let Cactus = [
         name: 'MOON CACTUS',
         img: s14,
         price: 12,
-        description: 'These cacti are not toxic to cats, dogs, or humans. You can place them near pets and children without any worries as long as they don’t touch the thorns.',
+        description: 'These cacti are not toxic. It can be placed near pets and children without any worries.',
     },
 
     {
@@ -88,7 +93,7 @@ let Cactus = [
         name: 'CRESTED BLUE CANDLE',
         img: s15,
         price: 10,
-        description: "Has thick, waxy branches. It can grow quite large, spreading out over a thick columnar trunk, stems cresting and creating waves as it grows.",
+        description: "It can grow quite large, spreading out over a thick columnar trunk, stems cresting and creating waves as it grows.",
     },
 
     {
@@ -96,7 +101,8 @@ let Cactus = [
         name: 'SAGUARO CACTUS',
         img: s16,
         price: 12,
-        description: "Composed of a tall, thick, fluted, columnar stem, 18 to 24 inches in diameter, often with several large branches (arms) curving upward in the most distinctive conformation of all Southwestern cacti. The skin is smooth and waxy, and the trunk and stems have stout, two inch spines clustered on their ribs.",
+        description: "Composed of a tall, thick, fluted, columnar stem, often with several large branches curving upward.",
+        descriptionLong: "Composed of a tall, thick, fluted, columnar stem, 18 to 24 inches in diameter, often with several large branches (arms) curving upward in the most distinctive conformation of all Southwestern cacti. The skin is smooth and waxy, and the trunk and stems have stout, two inch spines clustered on their ribs.",
     },
 ]
 

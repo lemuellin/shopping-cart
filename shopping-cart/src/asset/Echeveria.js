@@ -11,7 +11,8 @@ let Echeveria = [
         name: 'ECHEVERIA LOLA',
         img: s1,
         price: 5,
-        description: 'A popular Echeveria species that forms beautiful pale gray green rosettes of powdery pointed symmetrical leaves. The mature tight rosette resembles the look of a rosebud, which is a perfect choice for a gift.',
+        description: 'It has beautiful pale gray green rosettes and powdery pointed symmetrical leaves.',
+        descriptionLong: 'A popular Echeveria species that forms beautiful pale gray green rosettes of powdery pointed symmetrical leaves. The mature tight rosette resembles the look of a rosebud, which is a perfect choice for a gift.',
     },
 
     {
@@ -19,7 +20,8 @@ let Echeveria = [
         name: 'WOOLLY SENECIO',
         img: s2,
         price: 8,
-        description: "Commonly known as Woolly Senecio, The Silver Spider, or Silver Coral. Its leaves are fleshy, spike-shaped and covered with a powdery green white layer. This coating serves as a protecting cover for the plant to reflect sunlight and avoid overheating or sunburn.",
+        description: "Its leaves are fleshy, spike-shaped and covered with a powdery green white layer.",
+        descriptionLong: "Commonly known as Woolly Senecio, The Silver Spider, or Silver Coral. Its leaves are fleshy, spike-shaped and covered with a powdery green white layer. This coating serves as a protecting cover for the plant to reflect sunlight and avoid overheating or sunburn.",
     },
 
     {
@@ -27,7 +29,8 @@ let Echeveria = [
         name: 'CRASSULA HERREI',
         img: s3,
         price: 6,
-        description: "A rare low-growing succulent that forms shrubs of thick chubby leaves. The foliage's colors range from green to yellow with pink edges depending on sun exposure.",
+        description: "A rare low-growing succulent that forms shrubs of thick chubby leaves.",
+        descriptionLong: "A rare low-growing succulent that forms shrubs of thick chubby leaves. The foliage's colors range from green to yellow with pink edges depending on sun exposure.",
     },
 
     {
@@ -35,7 +38,8 @@ let Echeveria = [
         name: 'SENECIO COCOON PLANT',
         img: s4,
         price: 6,
-        description: "Native to South Africa, also known as a Wooly Senecio because of the white felt covering the surface of its upright cylindrical leaves. The fuzzy coverage makes Woolly Senecio an extremely intriguing plant and definitely one of the most aesthetically pleasing in its genus.",
+        description: "The white felt covering the surface of its upright cylindrical leaves.",
+        descriptionLong: "Native to South Africa, also known as a Wooly Senecio because of the white felt covering the surface of its upright cylindrical leaves. The fuzzy coverage makes Woolly Senecio an extremely intriguing plant and definitely one of the most aesthetically pleasing in its genus.",
     },
 
     {
