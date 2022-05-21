@@ -10,7 +10,7 @@ const RouteSwitch = () => {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path='/odin-shopping-cart' element={<Home/>} />
+                <Route path='/shopping-cart' element={<Home/>} />
                 <Route path='/shop' element={<Shop/>} />
                 <Route path='/contact' element={<Contact/>} />
             </Routes>
