@@ -4,7 +4,7 @@
 
 ### Description
 A simple shopping cart React application.
-[Live Demo](https://lemuellin.github.io/odin-shopping-cart/) :point_left:
+[Live Demo](https://lemuellin.github.io/shopping-cart/) :point_left:
 
 
 ### Features
