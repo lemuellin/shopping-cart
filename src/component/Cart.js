@@ -86,7 +86,7 @@ const Cart = (props) => {
                     <h4>Tax:</h4>
                     <h4>{'$ ' + (sum * 0.12).toFixed(2)}</h4>
                     <h3>Grand Total: </h3>
-                    <h3>{'$ ' + (sum * 1.1).toFixed(2)}</h3>
+                    <h3 data-testid='gTotal'>{'$ ' + (sum * 1.1).toFixed(2)}</h3>
                 </div>
                 <div className='buttons'>
                     <button onClick={props.showCart} className='backToShop'>Back To Shop</button>

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Match Snapshot 1`] = `
+<div>
+  <div
+    class="contact"
+  >
+    <div
+      class="link"
+    >
+      <a
+        href="https://github.com/lemuellin"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github"
+          class="icon"
+          src="github.png"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/lemuel-lin/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="linkedin"
+          class="icon"
+          src="linkedin.png"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/shorts/AWOyEIuVzzQ?&ab_channel=UFCHub"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="facebook"
+          class="icon"
+          src="facebook.png"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/shorts/lKz1fr18GE4?&ab_channel=Btfun"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="messenger"
+          class="icon"
+          src="messenger.png"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/watch?v=H9K8-3PHZOU&ab_channel=HamptonTheHampster-Topic"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="instagram"
+          class="icon"
+          src="instagram.png"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/watch?v=CmIKR458M0A&ab_channel=VeggieTalesOfficial"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="twitter"
+          class="icon"
+          src="twitter.png"
+        />
+      </a>
+    </div>
+    <div
+      class="address"
+    >
+      <h2>
+        Minimal Garden
+      </h2>
+      <h2>
+        Los Angeles, CA
+      </h2>
+    </div>
+  </div>
+</div>
+`;

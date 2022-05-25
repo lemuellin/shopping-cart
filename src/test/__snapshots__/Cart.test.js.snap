@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Component Match Snapshot 1`] = `
+<div>
+  <div
+    class="cartList"
+  >
+    <div
+      class="cartCard"
+    >
+      <h2
+        class="itemsTitle"
+      >
+        YOUR CART
+      </h2>
+      <div />
+      <div
+        class="total"
+      >
+        <h4>
+          Subtotal: 
+        </h4>
+        <h4>
+          $ 0.00
+        </h4>
+        <h4>
+          Shipping:
+        </h4>
+        <h4>
+          free
+        </h4>
+        <h4>
+          Tax:
+        </h4>
+        <h4>
+          $ 0.00
+        </h4>
+        <h3>
+          Grand Total: 
+        </h3>
+        <h3
+          data-testid="gTotal"
+        >
+          $ 0.00
+        </h3>
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="backToShop"
+        >
+          Back To Shop
+        </button>
+        <button
+          class="checkout"
+        >
+          Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

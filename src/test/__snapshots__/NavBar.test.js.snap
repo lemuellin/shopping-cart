@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar Match Snapshot 1`] = `
+<div>
+  <nav>
+    <h1
+      class="navLogo"
+    >
+      Minimal Garden
+    </h1>
+    <ul
+      class="navLinkContainer"
+    >
+      <a
+        class="navLink"
+        href="/shopping-cart"
+        name="Home"
+      >
+        <li>
+          Home
+        </li>
+      </a>
+      <a
+        class="navLink"
+        href="/shop"
+      >
+        <li>
+          Shop
+        </li>
+      </a>
+      <a
+        class="navLink"
+        href="/contact"
+      >
+        <li>
+          Contact
+        </li>
+      </a>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`NavBar can switch to Home route 1`] = `
+<div>
+  <nav>
+    <h1
+      class="navLogo"
+    >
+      Minimal Garden
+    </h1>
+    <ul
+      class="navLinkContainer"
+    >
+      <a
+        class="navLink"
+        href="/shopping-cart"
+        name="Home"
+      >
+        <li>
+          Home
+        </li>
+      </a>
+      <a
+        class="navLink"
+        href="/shop"
+      >
+        <li>
+          Shop
+        </li>
+      </a>
+      <a
+        class="navLink"
+        href="/contact"
+      >
+        <li>
+          Contact
+        </li>
+      </a>
+    </ul>
+  </nav>
+</div>
+`;
