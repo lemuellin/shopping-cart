@@ -5,11 +5,13 @@ import Echeveria from '../asset/Echeveria';
 import Cactus from '../asset/Cactus';
 import Aloe from '../asset/Aloe';
 
+import CartItem from './CartItem';
+
 
 const Cart = (props) => {
-    let countEcheveria = 5; // 0-4
-    let countCactus = 11; // 5-15
-    let countAloe = 4; // 16-19
+    let startPosEcheveria = 0; // 0-4
+    let startPosCactus = 5; // 5-15
+    let startPosAloe = 16; // 16-19
     let sum = 0;
 
     const checkout = () => {
@@ -22,56 +24,20 @@ const Cart = (props) => {
                 <h2 className='itemsTitle'>YOUR CART</h2>
                 <div>
                     {props.content.map((item,index) => {
-                        if (item !== 0 && index < countEcheveria){
+                        if (item !== 0 && index < startPosCactus){
                             sum += item * Echeveria[index].price;
                             return(
-                                <div key={index} id={index} className='cartItem'>
-                                    <img src={Echeveria[index].img} alt='Succulent Photos' className='shopItemPhoto'/>
-                                    <div className='cartItemAmount'>
-                                        <h3>{Echeveria[index].name}</h3>
-                                        <h4>{'$ ' + Echeveria[index].price}</h4>
-                                        <form className='amount'>    
-                                            <button type='button' className='amountBtn' onClick={props.minusButton}>-</button>
-                                            <input type='number' className='amountInput' value={item} onChange={props.inputField}/>
-                                            <button type='button' className='amountBtn' onClick={props.plusButton}>+</button>
-                                        </form>
-                                    </div>
-                                    <button className='removeButton' onClick={props.removeButton}>X</button>
-                                </div>
+                                CartItem(props, item, index, Echeveria, startPosEcheveria)
                             );
-                        }else if(item !== 0 && index < (countEcheveria + countCactus)){
+                        }else if(item !== 0 && index < (startPosAloe)){
                             sum += item * Cactus[index - 5].price;
                             return(
-                                <div key={index} id={index} className='cartItem'>
-                                    <img src={Cactus[index - 5].img} alt='Succulent Photos' className='shopItemPhoto'/>
-                                    <div className='cartItemAmount'>
-                                        <h3>{Cactus[index - 5].name}</h3>
-                                        <h4>{'$ ' + Cactus[index - 5].price}</h4>
-                                        <form className='amount'>    
-                                            <button type='button' className='amountBtn' onClick={props.minusButton}>-</button>
-                                            <input type='number' className='amountInput' value={item} onChange={props.inputField}/>
-                                            <button type='button' className='amountBtn' onClick={props.plusButton}>+</button>
-                                        </form>
-                                    </div>
-                                    <button className='removeButton' onClick={props.removeButton}>X</button>
-                                </div>
+                                CartItem(props, item, index, Cactus, startPosCactus)
                             );
                         }else if(item !== 0){
                             sum += item * Aloe[index - 16].price;
                             return(
-                                <div key={index} id={index} className='cartItem'>
-                                    <img src={Aloe[index - 16].img} alt='Succulent Photos' className='shopItemPhoto'/>
-                                    <div className='cartItemAmount'>
-                                        <h3>{Aloe[index - 16].name}</h3>
-                                        <h4>{'$ ' + Aloe[index - 16].price}</h4>
-                                        <form className='amount'>
-                                            <button type='button' className='amountBtn' onClick={props.minusButton}>-</button>
-                                            <input type='number' className='amountInput' value={item} onChange={props.inputField}/>
-                                            <button type='button' className='amountBtn' onClick={props.plusButton}>+</button>
-                                        </form>
-                                    </div>
-                                    <button className='removeButton' onClick={props.removeButton}>X</button>
-                                </div>
+                                CartItem(props, item, index, Aloe, startPosAloe)
                             );
                         }else{
                             return null;

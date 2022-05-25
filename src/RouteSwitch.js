@@ -5,6 +5,8 @@ import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 import Footer from './component/Footer';
 
+
+
 const RouteSwitch = () => {
     return(
         <BrowserRouter>

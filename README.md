@@ -30,8 +30,9 @@ A simple shopping cart React application.
 - Jest
 
 ### Future Development
-1. Animation: When pressed "Add to Cart" button, show animation on the cart/number count.
+1. Animation: When pressed "Add to Cart" button, show animation on the cart/number count. (useEffect)
 2. Responsive design for all screen sizes
+3. To not wipe out the order in cart while switching pages, make Shopping Cart to a page in RouteSwitch, then lift the state up to RouteSwitch.
 
 ### Attribute
 - Cactus: 
