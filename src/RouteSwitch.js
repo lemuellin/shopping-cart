@@ -67,8 +67,8 @@ const RouteSwitch = () => {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route exact path='/minimal-garden' element={<Home/>} />
-                <Route exact path='/minimal-garden/shop' element=
+                <Route exact path='/shopping-cart' element={<Home/>} />
+                <Route exact path='/shopping-cart/shop' element=
                     {<Shop
                         cart={cart}
                         addToCart={addToCart}
@@ -79,7 +79,7 @@ const RouteSwitch = () => {
                         itemRemove={itemRemove}
                     />} 
                 />
-                <Route exact path='/minimal-garden/contact' element={<Contact/>} />
+                <Route exact path='/shopping-cart/contact' element={<Contact/>} />
             </Routes>
             <Footer/>
         </BrowserRouter>
