@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+shop{
+    min-height:540px;
+    width:100vw;
+}
+
 p{
     width: 90vw;
     padding-left: 90px;
@@ -27,6 +32,7 @@ h4{
 
 /* Shop Page */
 .allShopItems{
+    min-width:420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,31 +61,10 @@ h4{
     font-weight: 400;
 }
 
-.itemsGrid1{
+.itemsGrid{
     width: 90vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: white;
-    border-radius: 8px;
-    padding-bottom: 50px;
-}
-
-.itemsGrid2{
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    background-color: white;
-    border-radius: 8px;
-    padding-bottom: 50px;
-}
-
-.itemsGrid3{
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     background-color: white;
     border-radius: 8px;
     padding-bottom: 50px;
@@ -142,6 +127,7 @@ input::-webkit-inner-spin-button {
     right: 0;
     padding: 10px 0 10px 10px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .itemCount{
@@ -200,4 +186,24 @@ input::-webkit-inner-spin-button {
     /* transition: all 1s;
     transform: scale(2) scale(0.5);
     -webkit-transform: ; */
+}
+
+@media(max-width:850px){
+    .itemsGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+    p{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media(max-width:550px){
+    .itemsGrid{
+        grid-template-columns: 1fr;
+    }
+    p{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }

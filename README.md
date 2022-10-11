@@ -31,7 +31,6 @@ A simple shopping cart React application.
 
 ### Future Development
 1. Animation: When pressed "Add to Cart" button, show animation on the cart/number count. (useEffect)
-2. Responsive design for all screen sizes
 
 ### Attribute
 - Cactus: 

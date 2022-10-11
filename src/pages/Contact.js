@@ -16,18 +16,14 @@ const Contact = () => {
         <a href='https://www.linkedin.com/in/lemuel-lin/' target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt='linkedin' className='icon'/>
         </a>
-        <a href='https://www.youtube.com/shorts/AWOyEIuVzzQ?&ab_channel=UFCHub' target="_blank" rel="noopener noreferrer">
-          <img src={facebook} alt='facebook' className='icon'/>
-        </a>
-        <a href='https://www.youtube.com/shorts/lKz1fr18GE4?&ab_channel=Btfun' target="_blank" rel="noopener noreferrer">
-          <img src={messenger} alt='messenger' className='icon'/>
-        </a>
-        <a href='https://www.youtube.com/watch?v=H9K8-3PHZOU&ab_channel=HamptonTheHampster-Topic' target="_blank" rel="noopener noreferrer">
-          <img src={instagram} alt='instagram' className='icon'/>
-        </a>
-        <a href='https://www.youtube.com/watch?v=CmIKR458M0A&ab_channel=VeggieTalesOfficial' target="_blank" rel="noopener noreferrer">
-          <img src={twitter} alt='twitter' className='icon'/>
-        </a>
+        
+        <img src={facebook} alt='facebook' className='icon'/>
+        
+        <img src={messenger} alt='messenger' className='icon'/>
+        
+        <img src={instagram} alt='instagram' className='icon'/>
+
+        <img src={twitter} alt='twitter' className='icon'/>        
       </div>
       <div className='address'>
         <h2>Minimal Garden</h2>

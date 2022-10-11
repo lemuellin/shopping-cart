@@ -60,7 +60,8 @@ input::-webkit-inner-spin-button {
 }
 
 .cartList{
-    min-height: 79vh;
+    min-width: 420px;
+    min-height: 80vh;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -70,6 +71,7 @@ input::-webkit-inner-spin-button {
 }
 
 .cartCard{
+    min-width: 415px;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -113,7 +115,7 @@ input::-webkit-inner-spin-button {
 
 .total{
     display: grid;
-    width: 20vw;
+    width: 300px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
@@ -160,4 +162,13 @@ input::-webkit-inner-spin-button {
 .checkout:active, .removeButton:active{
     background-color: #ff9d57;
     transform: translateY(2px);
+}
+
+@media(max-width:560px){
+    .cartItem{
+        gap:0px;
+    }
+    .buttons{
+        gap:0px;
+    }
 }

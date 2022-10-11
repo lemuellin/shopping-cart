@@ -9,13 +9,15 @@
 }
 
 .home{
+    min-height:540px;
+    min-width:420px;
     width: 100vw;
     height: 85vh;
     background-image: url('../asset/background/blue-shelf-mockup-with-product-presentation3d-rendering.jpg');
     background-repeat: no-repeat;
     background-origin: content-box;
-    background-position: center;
-    background-size: 100vw 90vh;
+    background-position: left;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
