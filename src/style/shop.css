@@ -32,7 +32,7 @@ h4{
 
 /* Shop Page */
 .allShopItems{
-    min-width:420px;
+    min-width:330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,5 +205,12 @@ input::-webkit-inner-spin-button {
     p{
         padding-left: 60px;
         padding-right: 60px;
+    }
+}
+
+@media(max-width:400px){
+    p{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
