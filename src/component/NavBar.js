@@ -23,13 +23,13 @@ const NavBar = () => {
                 <img src={menu} className="menu" alt="menu button" id="menuIcon"/>
             </button>
             <ul ref={menuRef} className={(menuBtn ? " navLinkContainer " : " hideNavLinkContainer ")}>
-                <Link to='/shopping-cart' onClick={()=>setMenuBtn(false)} className='navLink' name='Home'>
+                <Link to='/' onClick={()=>setMenuBtn(false)} className='navLink' name='Home'>
                     <li>Home</li>
                 </Link>
-                <Link to='/shopping-cart/shop' onClick={()=>setMenuBtn(false)} className='navLink'>
+                <Link to='/shop' onClick={()=>setMenuBtn(false)} className='navLink'>
                     <li>Shop</li>
                 </Link>
-                <Link to='/shopping-cart/contact' onClick={()=>setMenuBtn(false)} className='navLink'>
+                <Link to='/contact' onClick={()=>setMenuBtn(false)} className='navLink'>
                     <li>Contact</li>
                 </Link>
             </ul>

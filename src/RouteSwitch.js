@@ -67,8 +67,8 @@ const RouteSwitch = () => {
         <HashRouter>
             <NavBar/>
             <Routes>
-                <Route path='/shopping-cart' element={<Home/>} />
-                <Route path='/shopping-cart/shop' element=
+                <Route path='/' element={<Home/>} />
+                <Route path='/shop' element=
                     {<Shop
                         cart={cart}
                         addToCart={addToCart}
@@ -79,7 +79,7 @@ const RouteSwitch = () => {
                         itemRemove={itemRemove}
                     />} 
                 />
-                <Route path='/shopping-cart/contact' element={<Contact/>} />
+                <Route path='/contact' element={<Contact/>} />
             </Routes>
             <Footer/>
         </HashRouter>
