@@ -1,51 +1,29 @@
-# shopping-cart
-
-## Project Overview
-
-### Description
-A simple shopping cart React application.
+# Minimal Garden
+A React E-Commerce site with a fully functional shopping cart.
 [Live Demo](https://lemuellin.github.io/minimal-garden/) :point_left:
 
+<img src="./src/asset/screenshot/minimalGarden.gif">
 
-### Features
-- An eCommerce website with a fully functional shopping cart.
-- Add and remove products from the shopping cart
-- Clean, minimalist UI design
-- Tested through React Test Library
+## Features
+-	Add and remove products from the shopping cart
+-	Tested through React Test Library
+-	Mobile Responsive
 
-### Screenshots
-#### Shop Page
-![image](/src/asset/screenshot/Shop%20Page.png)
-#### Cart Page
-![image](/src/asset/screenshot/Cart%20Page.png)
+## Technologies
+-	React
+-	React Router
+-	React Testing Library
+-	Jest
 
-## Development
-
-### Frameworks
-- Web Framework
-	- [React](https://reactjs.org/)
-
-### Tools
-- React Router
-- Jest
-
-### Future Development
-1. Animation: When pressed "Add to Cart" button, show animation on the cart/number count. (useEffect)
-
-### Attribute
-- Cactus: 
-Cactus flower vector created by pch.vector - www.freepik.com
-
-- Background:
-Cosmetic podium photo created by vanitjan - www.freepik.com
-
-- Icons:
-Facebook icons created by Pixel perfect - Flaticon
-Github icons created by Pixel perfect - Flaticon
-Linkedin icons created by Freepik - Flaticon
-Twitter icons created by Pixel perfect - Flaticon
-Instagram icons created by Pixel perfect - Flaticon
-Facebook icons created by Freepik - Flaticon
-
-- Color-palette:
-https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
+## Getting Started
+##### Install and Run
+```
+git clone https://git@github.com:lemuellin/shopping-cart.git
+cd shopping-cart
+npm install
+npm start
+```
+##### Test
+```
+npm test + file name
+```

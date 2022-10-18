@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.503635fb.css",
-    "main.js": "/shopping-cart/static/js/main.754bc1cc.js",
+    "main.js": "/shopping-cart/static/js/main.a15df0e3.js",
     "static/media/blue-shelf-mockup-with-product-presentation3d-rendering.jpg": "/shopping-cart/static/media/blue-shelf-mockup-with-product-presentation3d-rendering.327a0d7c12a8d53ed4c4.jpg",
     "static/media/12.jpg": "/shopping-cart/static/media/12.39682b822fc66b4fb1a1.jpg",
     "static/media/16.jpg": "/shopping-cart/static/media/16.b2d360eede8b52165913.jpg",
@@ -30,10 +30,10 @@
     "static/media/bag.png": "/shopping-cart/static/media/bag.9c816c6b923ef947a58e.png",
     "index.html": "/shopping-cart/index.html",
     "main.503635fb.css.map": "/shopping-cart/static/css/main.503635fb.css.map",
-    "main.754bc1cc.js.map": "/shopping-cart/static/js/main.754bc1cc.js.map"
+    "main.a15df0e3.js.map": "/shopping-cart/static/js/main.a15df0e3.js.map"
   },
   "entrypoints": [
     "static/css/main.503635fb.css",
-    "static/js/main.754bc1cc.js"
+    "static/js/main.a15df0e3.js"
   ]
 }
