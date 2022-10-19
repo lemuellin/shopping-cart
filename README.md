@@ -1,6 +1,6 @@
 # Minimal Garden
 A React E-Commerce site with a fully functional shopping cart.  
-[Live Demo](https://lemuellin.github.io/minimal-garden/) :point_left:
+[Live Demo](https://lemuellin.github.io/shopping-cart/) :point_left:
 
 <img src="./src/asset/screenshot/minimalGardenCompressed.gif">
 
