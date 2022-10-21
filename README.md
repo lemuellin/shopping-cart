@@ -6,7 +6,7 @@ A React E-Commerce site with a fully functional shopping cart.
 
 ## Features
 -	Leveraged React Hooks to manage state of product information in the shopping cart
--	Unit Tested with React Test Library and Jest
+-	Unit Tested with React Testing Library and Jest
 -   Implemented React Router DOM for dynamic routing
 -	Mobile Responsive
 
