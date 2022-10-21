@@ -5,8 +5,9 @@ A React E-Commerce site with a fully functional shopping cart.
 <img src="./src/asset/screenshot/minimalGardenCompressed.gif">
 
 ## Features
--	Add and remove products from the shopping cart
--	Tested through React Test Library
+-	Leveraged React Hooks to manage state of product information in the shopping cart
+-	Unit Tested with React Test Library and Jest
+-   Implemented React Router DOM for dynamic routing
 -	Mobile Responsive
 
 ## Technologies
